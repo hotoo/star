@@ -2,15 +2,15 @@
   "name": "star",
   "version": "0.1.0",
   "description": "Star",
-  "keywords": [],
+  "keywords": ["Star"],
   "homepage": "",
   "author": "hotoo <hotoo.cn@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/hotoo/star.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/hotoo/star/issues"
   },
   "licenses": "MIT",
   "spm": {
