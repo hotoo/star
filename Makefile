@@ -18,4 +18,4 @@ test:
 	@spm test
 
 clear:
-	@rm _site
+	@rm -rf _site
