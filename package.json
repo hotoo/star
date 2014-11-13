@@ -16,6 +16,8 @@
   "spm": {
     "main": "index.js",
     "dependencies": {
+      "jquery": "2.1.1",
+      "evt": "0.2.2"
     },
     "devDependencies": {
       "expect.js": "0.3.1"

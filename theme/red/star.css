@@ -1,0 +1,27 @@
+
+.star,
+.star > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.star > li {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.star-item {
+  background: transparent url(off.gif) no-repeat 0 0;
+  cursor: pointer;
+}
+.star-item:hover,
+.star-item.hover {
+  background-image: url(on.gif);
+}
+
+.star-float-layer {
+  position: absolute;
+  left: -1000px;
+  top: -100px;
+}
