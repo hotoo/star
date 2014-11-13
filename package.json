@@ -1,0 +1,24 @@
+{
+  "name": "star",
+  "version": "0.1.0",
+  "description": "Star",
+  "keywords": [],
+  "homepage": "",
+  "author": "hotoo <hotoo.cn@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
