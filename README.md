@@ -2,17 +2,55 @@
 
 ---
 
-Star
+Web Star.
 
-## Install
+## INSTALL
 
 ```
 $ spm install star --save
 ```
 
-## Usage
+## USAGE
 
 ```js
-var star = require('star');
-// use star
+var star = require('star', {
+  length: 5
+});
+star.val(3);
+
+star.on("check", function(value){
+  $.ajax("/save/star", {star: value}, function(result){
+    if (result === "OK") {
+      star.val(value);
+    }
+  });
+});
 ```
+
+## API
+
+### Star(Object element, Object options)
+
+* element: HTML Element, Selector String.
+* options: Object
+  * length: Number
+  * value: Number
+
+### star.val(Number value)
+
+Set star value.
+
+### star.on(String eventName, Function handler)
+
+Binding events.
+
+### star.off(String eventName [, Function handler])
+
+Unbinding events.
+
+
+## EVENTS
+
+### check
+
+User check star button.
