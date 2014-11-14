@@ -13,7 +13,9 @@ $ spm install star --save
 ## USAGE
 
 ```js
-var star = require('star', {
+var Star = require('star');
+
+var star = new Star("#demo", {
   length: 5
 });
 star.val(3);
