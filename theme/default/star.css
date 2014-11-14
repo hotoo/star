@@ -4,19 +4,26 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
+}
+.star {
+  padding: 1px;
 }
 .star > li {
   width: 16px;
   height: 16px;
-  display: inline-block;
+}
+
+.star-horizontal > li {
+  display: block;
 }
 
 .star-item {
   background: transparent url(off.gif) no-repeat 0 0;
   cursor: pointer;
 }
-.star-item:hover,
-.star-item.hover {
+.star-item.hover,
+.star-item.checked {
   background-image: url(on.gif);
 }
 
@@ -24,4 +31,12 @@
   position: absolute;
   left: -1000px;
   top: -100px;
+  z-index: 1000;
+  display: inline-block;
+
+  /*-moz-box-shadow: 0 0 8px #ccc; [> 老的 Firefox <]*/
+  /*box-shadow: 0 0 8px #ccc;*/
+  /*padding: 4px;*/
+  /*background: #fff;*/
+  /*-moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;*/
 }

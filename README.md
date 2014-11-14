@@ -16,9 +16,9 @@ $ spm install star --save
 var Star = require('star');
 
 var star = new Star("#demo", {
-  length: 5
+  length: 5,
+  value: 3
 });
-star.val(3);
 
 star.on("check", function(value){
   $.ajax("/save/star", {star: value}, function(result){
