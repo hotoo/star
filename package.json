@@ -1,8 +1,8 @@
 {
   "name": "star",
-0 "version": "0.2.0",
+  "version": "0.2.0",
   "description": "Star",
-  "keywords": ["Star"],
+  "keywords": ["Star", "标星", "星"],
   "homepage": "",
   "author": "hotoo <hotoo.cn@gmail.com>",
   "repository": {
